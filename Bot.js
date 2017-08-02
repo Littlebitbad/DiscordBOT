@@ -14,6 +14,6 @@ console.log("Ready");
 bot.user.setGame("Erik Is Gay");
 })
   bot.on('message', (message) => {
-message.react("™")
+//message.react("™")
 
   });
