@@ -14,10 +14,6 @@ console.log("Ready");
 bot.user.setGame("Erik Is Gay");
 })
   bot.on('message', (message) => {
-    if (message.content === "!!Erik Is Gay")
-      var interval = setInterval (function () {
-          message.channel.send("@Vaffel Politiet#6147")
-          message.channel.sendFile("./assets/day_15.gif","day.gif","gays")
-        }, 1 * 86400000);
+message.react("™")
 
   });
